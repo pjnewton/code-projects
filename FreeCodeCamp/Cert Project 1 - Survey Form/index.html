@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Project | FreeCodeCamp!
+  </title>
+</head>
+<body>
+  <h1 id="title">FreeCodeCamp Survey Project</h1>
+  <p id="description">This is the first project for the Responsive Web Design Certification</p>
+  
+  <div class="form">
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name: </label>
+          <input type="text" placeholder="Name" id="name" required></input>
+        <label for="email" id="email-label">Email: </label>
+          <input type="email" placeholder="Email Address" id="email" required></input>
+      </fieldset>
+      <fieldset>
+        <label for="number" id="number-label">Enter a Number: </label>
+          <input type="number" placeholder="Enter a Number" id="number" min="1" max="99"></input>
+        
+        <label for="dropdown">Select an Option: </label>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label for="love-us">
+            <input id="love-us" type="radio" name="feedback" value="love-us" checked/> Love You!</label>
+          <label for="hate-you">
+            <input id="hate-you" type="radio" name="feedback" value="hate-us" /> Hate You!</label>
+        <label for="check-one">Check a box!</label>
+          <input id="check-one" type="checkbox" required name="checkone" value="this" /> Check this!
+          <input id="check-two" type="checkbox" required name="checktwo" value="that"/> Or check that!
+        </fieldset>
+        <fieldset>
+          <label for="comments">Additional Comments</label>
+            <textarea id="comments" placeholder="Additional comments here!" rows="3" cols="30" name="comments"></textarea>
+        </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+
+</body>
+</html>
