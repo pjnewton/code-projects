@@ -1,32 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=MedievalSharp&display=swap');
+
 body {
-  background-color: darkblue;
+  background-color: #333;
   padding-top: 5%;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+.btn {
+  border: none;
+  font-size: 1.1rem;
+  background: #a43e42;
+  color: #eaeaea;
+  padding: .5rem 1rem; 
+  border-radius: 3px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#game {
+  max-width: 600px;
+  max-height: 500px;
+  background-color: lightgray;
+  color: #eaeaea;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+#game h1 {
+  font-family: 'MedievalSharp', cursive;
+  COlor: #000;
+  text-align:center;
 }
 
 #text {
   background-color: black;
+  font-size: 1.3rem;
+  line-height: 1.4;
   color: white;
-  padding: 10px;
-}
-
-#game {
-  max-width: 500px;
-  max-height: 400px;
-  background-color: lightgray;
-  color: white;
-  margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 #controls {
   border: 1px black solid;
-  padding: 5px;
+  padding: 8px;
+  text-align:center;
 }
 
 #stats {
   border: 1px black solid;
   color: black;
   padding: 5px;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 #monsterStats {
