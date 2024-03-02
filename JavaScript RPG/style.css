@@ -22,7 +22,7 @@ body {
 
 #game {
   max-width: 600px;
-  max-height: 500px;
+  height: 60vh;
   background-color: lightgray;
   color: #eaeaea;
   margin: 0 auto;
@@ -31,7 +31,7 @@ body {
 
 #game h1 {
   font-family: 'MedievalSharp', cursive;
-  COlor: #000;
+  Color: #000;
   text-align:center;
 }
 
@@ -44,6 +44,10 @@ body {
 }
 
 #controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
   border: 1px black solid;
   padding: 8px;
   text-align:center;
